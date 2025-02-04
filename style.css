@@ -56,7 +56,7 @@ ul, li {
 .subscription h2 {
     text-align: center;
     color:darkviolet;
-    border: 1px solid darkviolet;
+    border: 1px dotted darkviolet;
 }
 
 form {
