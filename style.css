@@ -12,7 +12,7 @@ nav {
     background-color: lightsteelblue;
     display: flex;
     font-weight: bolder;
-
+    border-left: 8px solid darkviolet;
 }
 
 a {
@@ -34,8 +34,8 @@ ul, li {
 .absolute {
     width: 180x;
     position: absolute;
-    right: 25px;
-    top:240px;
+    right: 250px;
+    top:220px;
     box-shadow: inset 50px 50px 60px lightsteelblue, 8px 8px 20px black;
     color: black;
     font-weight: bolder;
@@ -67,8 +67,8 @@ form {
 p {
     width: 50%;
     position: relative;
-    left: 200px;
-    padding: 10px;
+    left: 400px;
+    padding: px20;
     color:lightslategray;
     font-style:italic;
 }
