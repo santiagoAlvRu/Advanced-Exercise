@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    background-color:beige;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: lightsteelblue;
+    display: flex;
+    font-weight: bolder;
+
+}
+
+a {
+    color: darkviolet;
+    font-family: 'Fraunces';
+}
+
+ul, li {
+    
+    display: inline;
+    padding: 30px;
+}
+
+/* img {
+    width: 50%;
+    height: 500px;
+} */
+
+.absolute {
+    width: 180x;
+    position: absolute;
+    right: 25px;
+    top:240px;
+    box-shadow: inset 50px 50px 60px lightsteelblue, 8px 8px 20px black;
+    color: black;
+    font-weight: bolder;
+}
+
+.hero h1 {
+    text-align: center;
+    color: darkviolet;
+    text-decoration: underline;
+}
+
+.content h2 {
+    text-align: center;
+    color: darkviolet;
+    text-decoration: underline;;
+}
+
+.subscription h2 {
+    text-align: center;
+    color:darkviolet;
+    border: 1px solid darkviolet;
+}
+
+form {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    width: 50%;
+    position: relative;
+    left: 200px;
+    padding: 10px;
+    color:lightslategray;
+    font-style:italic;
+}
+
+button {
+    font-weight: bolder;
+    box-shadow: 3px 3px 15px darkviolet;
+}
+
+footer {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: italic;
+}
